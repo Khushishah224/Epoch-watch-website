@@ -11,3 +11,4 @@ User-Friendly Interface: Our website boasts an intuitive interface, making it ea
 2. Responsive Design: Whether you're browsing on a desktop, tablet, or mobile device, Epoch Watches adapts seamlessly to provide an optimal viewing experience.
 3. Future Expansion: While our current focus is on snook watch collections, we have plans to expand our offerings to cater to all types of watch aficionados in the future.
 
+![photo1](https://github.com/Khushishah224/Epoch-watch-website/assets/153625296/34f29324-78c7-43e2-8ede-0c8ff42ccf8f)
