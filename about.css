@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: 'sans-serif', serif;
+    --normal-font: "Montserrat", sans-serif;
+    --designing-font: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: var(--normal-font);
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* header  */
+
+.header-section nav {
+    background-color: #000;
+}
+
+.header-section .navbar-brand {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 3rem;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.header-section .nav-link { 
+    border-bottom: 2px solid transparent;
+    color: #fff;
+}
+
+.header-section .nav-link:hover {
+    color: #ccc;
+    border-color: #fff;
+}
+
+.header-section .navbar-brand:hover {
+    color: #fff;
+}
+
+
+.header-section .navbar button {
+    background-color: #fff;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#profile {
+    margin-left: auto;
+}
+
+#profile a i {
+    font-size: 2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+/* about section */
+
+.about-section {
+    margin-top:4rem;
+    padding: 5rem 0;
+
+}
+
+.about-section .content {
+    background-color: #deb887;
+    background-image: linear-gradient(#393125, #deb887, #393125);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.2);
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+}
+
+
+
+.about-section h1 {
+    display: inline-block;
+    font-family: var(--designing-font);
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #fff;
+
+
+}
+
+.about-section p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    word-spacing: 10px;
+    font-weight: 400;
+}
+
+.about-section p::first-letter {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* footer  */
+.footer-div{
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.footer-div h5 {
+    font-family: var(--normal-font);
+    font-size: 1rem;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+footer{
+    border-top: 2px solid #fff;
+}
+
+.footer-div .headings {
+    font-family: var(--designing-font);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+.footer-div .nav-link {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.footer-div .nav-link:hover {
+    color: #deb887;
+    text-shadow: 1px 1px 2px #ccc;
+
+}
+
+.footer-div p {
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.footer-div .socialandicons ul li a {
+    margin-left: 1.5rem;
+
+}
+
+.footer-div .icons {
+    color: #fff
+}
+
+.footer-div .icons:hover {
+    color: burlywood;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+
+@media only screen and (max-width:768px) {
+    .header-section .navbar button {
+       margin-right: 1rem;
+   }
+
+   .header-section .navbar-nav {
+       align-items: center;
+   }
+
+}
+
+
+@media only screen and (max-width:310px) {
+
+   .header-section .navbar button {
+       margin: auto;
+   }
+
+   .header-section .navbar-brand {
+       font-size: 2rem;
+   }
+
+   .footer-div .socialandicons {
+       font-size: 12px;
+       color: #ccc;
+       font-weight: 600;
+       margin: 0;
+       margin:auto;
+   }
+
+}

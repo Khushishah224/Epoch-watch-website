@@ -1,0 +1,341 @@
+
+<!-- Project Name: Epoch : Watch Website -->
+<!-- Subject : FSD-I-->
+<!-- Date : 30/03/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch | Where Tradition Meets Innovation</title>
+
+    <!-- bootstrap links  -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- remix icons  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- montessera font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar starts here-->
+    <header class="header-section" id="home">
+        <nav class="navbar navbar-expand-sm  fixed-top ">
+            <div class="container-fluid ">
+                <div class="brand-logo p-1 mx-2">
+                    <a href="#" class="navbar-brand">EPOCH</a>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="link">
+                    <ul class="navbar-nav p-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our_collection.html">COLLECTIONS</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav p-2" id="profile">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <i class="ri-user-3-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar ends here-->
+
+
+    <!-- carousel section starts here-->
+    <div id="videoCarousel" class="carousel slide carousel-fade carousel-section" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#videoCarousel" data-slide-to="1"></li>
+            <li data-target="#videoCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="./images/video1.mp4" type="video/mp4">
+                </video>
+                <div class="carousel-caption ">
+                    <div>
+                        <h2 class="font-weight-bold "><span>A NEW</span> "SAND GOLD" SHADE</h2>
+                        <p class="">The new Royal Oak Selfwinding Flying Tourbillon Openworked introduces a new 18-carat
+                            gold alloy, called sand gold.</p>
+                        <button type="button" class="btn btn-outline-light btn-lg mt-3 ">~ Discover More</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <video class="video-fluid" autoplay loop muted>
+                    <source
+                        src="https://www.tagheuer.com/assets/videos/2022/HP/Collections/TAG_Heuer_Aquaracer/TAGHeuer_LP_superdiver_ud4f9ixE_desktop.mp4"
+                        type="video/mp4">
+                </video>
+                <div class="carousel-caption ">
+                    <div>
+                        <h2 class="font-weight-bold ">TAG HEUER AQUARACER PROFESSIONAL</h2>
+                        <p class="">Forged for the deeps, the Aquaracer Professional 1000 is the ultimate luxury diver’s watch, reliable in all conditions.</p>
+                        <button type="button" class="btn btn-outline-light btn-lg mt-3 ">~ Discover More</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <video class="video-fluid" autoplay loop muted>
+                    <source
+                        src="https://www.tagheuer.com/assets/videos/2023/LP/Monaco/Monaco_Skeleton_CBL2182.FT6235_16_9.mp4"
+                        type="video/mp4 ">
+                </video>
+                <div class="carousel-caption ">
+                    <div>
+                        <h2 class="font-weight-bold ">TAG HEUER MONACO</h2>
+                        <p class="">The unique, square-faced icon of TAG Heuer’s avant-garde heritage and savoir-faire
+                        </p>
+                        <button type="button" class="btn btn-outline-light btn-lg mt-3 ">~ Discover More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control-prev" href="#videoCarousel" data-slide="prev" role="button">
+            <span class="carousel-control-prev-icon"></span>
+            <!-- <span class="sr-only">Previous</span> -->
+        </a>
+        <a class="carousel-control-next" href="#videoCarousel" data-slide="next" role="button">
+            <span class="carousel-control-next-icon"></span>
+            <!-- <span class="sr-only">Next</span> -->
+        </a>
+    </div>
+    <!-- carousel section ends here-->
+
+
+    <!-- new arrival section starts here  -->
+
+    <div class="new-arrival row ">
+        <div class="col-lg-4 col-sm-12">
+            <h2 class="text-center">NEW<br><span> ARRIVALS</span></h2>
+            <p class=" para">Discover the latest watches from our collection</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide col-lg-8 " data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="card-warpper ">
+                        <div class="card" >
+                            <div class="img-wrapper">
+                                <img class="" src="./images/01carouselHP_novelties_1000x1321_fev24_RO_26735SG-OO-1320SG-01_SDT_d02.jpg.transform.apcarouselv.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">A NEW "SAND GOLD" SHADE</h5>
+                                <p class="card-text">The new Royal Oak Selfwinding Flying Tourbillon Openworked in 41 mm introduces the very first timepiece crafted in sand gold, a new 18-carat gold alloy conferring rich plays of light.</p>
+                                <a href="#" class="btn ">~ Discover More</a>
+                            </div>
+                        </div>
+                        <div class="card" >
+                            <div class="img-wrapper">
+                                <img class="" src="./images/02carouselHP_novelties_1000x1321_fev24_CODE_26393NR-OO-A002KB-02_SDT_d02.jpg.transform.apcarouselv.jpg" alt="Card image cap">
+                            </div>  
+                            <div class="card-body">
+                                <h5 class="card-title">SEVEN REFERENCES IN 18-CARAT PINK GOLD</h5>
+                                <p class="card-text">Five years after its launch, the Code 11.59 by Audemars Piguet collection continues to evolve, offering a variety of sizes, materials, colours and complications, all with a highly contemporary design.</p>
+                                <a href="#" class="btn">~ Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-warpper">
+                        <div class="card" >
+                            <div class="img-wrapper">
+                                <img class="" src="./images/img3.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">5072R - AQUANAUT</h5>
+                                <p class="card-text">The Ref. 5072 Aquanaut Luce Haute Joaillerie showcases the hue of rose 
+                                    gold in very feminine version. The engraved mother-of-pearl dial with a checkerboard 
+                                    pattern in shade of beige is framed in the bezel.</p>
+                                <a href="#" class="btn ">~ Discover More</a>
+                            </div>
+                        </div>
+                        <div class="card" >
+                           <div class="img-wrapper">
+                            <img class="" src="./images/05carouselHP_novelties_1000x1321_fev24_ROC_26630OR-GG-D626CR-01_SDT_b05.jpg.transform.apcarouselv.jpg" alt="Card image cap">
+                           </div>
+                            <div class="card-body">
+                                <h5 class="card-title">A BOLDLY FEMININE ROYAL OAK CONCEPT</h5>
+                                <p class="card-text">Audemars Piguet unveils a new Royal Oak Concept Flying Tourbillon limited edition created in collaboration with Haute Couture designer Tamara Ralph.</p>
+                                <a href="#" class="btn">~ Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-warpper">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img class="" src="./images/img2.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">5260/1455R - GRAND COMPLICATIONS</h5>
+                                <p class="card-text">The dial features twelve multicolored sapphire hour-markers, a diamond hour ring, a ruby-set hour hand and a blue sapphire-set minute hand.</p>
+                                <a href="#" class="btn ">~ Discover More</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img class="" src="./images/img1.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">5260/355R - GRAND COMPLICATIONS</h5>
+                                <p class="card-text">The original shape of the bezel is highlighted by a double row of diamonds and multicolored sapphires set using the "invisible setting" technique.</p>
+                                <a href="#" class="btn ">~ Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
+            </a>
+        </div>
+    </div>
+    <!-- new arrival section ends here  -->
+
+    <!-- Timepeces section starts here  -->
+    <div class="timepeces d-flex flex-wrap flex-row justify-content-around align-items-center mt-4">
+        <div class="timepeces-heading">
+            <h2 class="text-center">TIMEPIECES</h2>
+            <ul class="list-unstyled ">
+                <li><i class="ri-arrow-right-wide-line"></i><a href= "our_collection.html" class="text-decoration-none">Collections</a></li>
+                <li><i class="ri-arrow-right-wide-line"></i><a href= "#" class="text-decoration-none">Watch Finder</a></li>
+                <li><i class="ri-arrow-right-wide-line"></i><a href= "#" class="text-decoration-none">Masterpieces</a></li>
+            </ul>
+        </div>
+        <div class="timepeces-image">
+            <div class="timepeces-image-points">
+                    <div id="td-1" class="td">
+                         <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/single-number" target="_blank" class="text-decoration-none " >&npar;</a></div>
+                    </div>
+                   
+                    <div id="td-2" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank"class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                    <div id="td-3" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank"class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                    <div id="td-4" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank"class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                    <div id="td-5" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank"class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                    <div id="td-6" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank"class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                    <div id="td-7" class="td" >
+                        <div class='hover-bg'><a href="https://www.breguet.com/en/house-breguet/unmistakable-signs/breguet-numerals" target="_blank" class="text-decoration-none ">&npar;</a></div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section stars here  -->
+    <div class="bg-black px-4  text-white footer-div">
+        <footer class="py-5 ">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3 mx-auto ">
+                    <h5 class="mb-3">WATCHES</h5>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">All Watches</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">New Arrivals</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Popular</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3 mx-auto ">
+                    <h5 class="mb-3">PRIVACY & TERMS</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Terms & Conditions</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Cookies Settings</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Terms of Use</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Accessibility Statement</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 mb-3 mx-auto ">
+                    <form class=" text-center">
+                        <h5 class="headings">Subscribe to our newsletter</h5>
+                        <p class="text-secondary ">Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <!-- <label for="newsletter1" class="visually-hidden">Email address</label> -->
+                            <input id="newsletter1" type="text" class="form-control " placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-white socialandicons">
+                <p class="text-white px-5">&copy; 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex  justify-content-around pb-4 px-3 ">
+                    <li class=" ps-3 "><a class=" text-decoration-none  icons" href="#"><i
+                                class="ri-twitter-fill "></i></a></li>
+                    <li class=" ps-3"><a class="text-decoration-none  icons" href="#"><i
+                                class="ri-instagram-fill"></i></a></li>
+                    <li class=" ps-3"><a class="text-decoration-none  icons" href="#"><i
+                                class="ri-facebook-fill"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- footer section ends here  -->
+
+</body>
+
+</html>
