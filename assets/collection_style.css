@@ -9,6 +9,10 @@
     --normal-font: "Montserrat", sans-serif;
     --designing-font: 'Times New Roman', Times, serif;
 }
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
 body {
     font-family: var(--normal-font);
