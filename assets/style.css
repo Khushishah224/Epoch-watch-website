@@ -383,6 +383,11 @@ footer{
 
 
 @media only screen and (max-width:768px) {
+    html,body {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
      .header-section .navbar button {
         margin-right: 1rem;
     }
