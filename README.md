@@ -19,7 +19,7 @@ https://khushishah224.github.io/Epoch-watch-website/
 - Future Expansion: While our current focus is on snook watch collections, we have plans to expand our offerings to cater to all types of watch aficionados in the future.
 
 
-## Screenshots
+## Screenshots of Home Page
 
 ![photo1](https://github.com/Khushishah224/Epoch-watch-website/assets/153625296/34f29324-78c7-43e2-8ede-0c8ff42ccf8f)
 
