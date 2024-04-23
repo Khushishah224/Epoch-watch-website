@@ -29,6 +29,8 @@ https://khushishah224.github.io/Epoch-watch-website/
 
 ![photo4](https://github.com/Khushishah224/Epoch-watch-website/assets/153625296/8139888a-15fa-408a-982d-8d57489d79d6)
 
+https://github.com/Khushishah224/Epoch-watch-website/assets/153625296/b62f60cc-2c97-4edb-8fbe-53390ae8a577
+
 
 ## Tech Stack
 
