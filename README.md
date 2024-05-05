@@ -1,7 +1,7 @@
 
-#  Epoch Watches : Where Tradition Meets Innovation
+#  Epoch : Where Tradition Meets Innovation
 
-Welcome to Epoch Watches, your one-stop destination for a curated collection of premium timepieces from renowned brands around the globe. Our website is meticulously crafted using HTML, CSS, Bootstrap, and JavaScript to ensure a seamless browsing experience for watch enthusiasts.
+Welcome to Epoch , your one-stop destination for a curated collection of premium timepieces from renowned brands around the globe. Our website is meticulously crafted using HTML, CSS, Bootstrap, and JavaScript to ensure a seamless browsing experience for watch enthusiasts.
 
 At Epoch Watches, we understand the discerning tastes of watch connoisseurs, particularly those with a penchant for snook watches. Our platform is designed to cater to this specific audience, offering a diverse range of snook watch collections that blend tradition with innovation.
 
